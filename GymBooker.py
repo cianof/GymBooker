@@ -29,7 +29,8 @@ button.click()
 
 # get student number box path 
 element= driver.find_element_by_xpath(student_path)
-student_number = '17392773'
+# your gym ID (student number) goes here
+student_number = ''
 #input student number into box
 element.send_keys(student_number)
 
